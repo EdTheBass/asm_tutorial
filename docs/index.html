@@ -635,7 +635,7 @@ instruction. Instructions like `jl` (Jump short if Less) rely on checking the
 bits set in this register in order to know which branch that they should
 execute.
 
-It's worth noting that there that there are only 16 bits laid out here, with one
+It's worth noting that there are only 16 bits laid out here, with one
 of them already unused (the last bit, which is reserved for future standards
 extensions). While the register itself is technically a 64-bit register (`rfl`),
 only the lower 16 bits are used in this case. The rest of the bits are reserved,
@@ -662,7 +662,7 @@ what their semantic meanings are.
   overflow, and vice versa.
 
 * PF: Used to indicate the total number of bits that _are_ set in the
-  result. For example, if the result of a operation was `01100`, this would be
+  result. For example, if the result of an operation was `01100`, this would be
   set to `1`, indicating an even number of bits set (2), and vice versa.
 
 
